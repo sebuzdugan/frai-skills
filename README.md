@@ -17,7 +17,7 @@ npx skills add sebuzdugan/frai-skills
 ## How it fits together
 
 - **This repo** teaches your *agent* the workflow (spec template, risk-tier reference, gate checklist).
-- **[`frai-gate`](https://github.com/sebuzdugan/frai/tree/main/packages/frai-gate)** enforces it mechanically: `npx frai-gate init --ci` scaffolds the spec + a GitHub Action, `npx frai-gate check FFRAI-SPEC.md` blocks CI until the gate is answered, `npx frai-gate draft` drafts the gate from your actual code.
+- **[`frai-gate`](https://github.com/sebuzdugan/frai/tree/main/packages/frai-gate)** enforces it mechanically: `npx frai-gate init --ci` scaffolds the spec + a GitHub Action, `npx frai-gate check FRAI-SPEC.md` blocks CI until the gate is answered, `npx frai-gate draft` drafts the gate from your actual code.
 - **[`frai`](https://www.npmjs.com/package/frai)** turns a passing spec into shippable governance docs (model card, risk file), scans code for AI usage, and runs evals.
 
 MIT · by [Sebastian Buzdugan](https://github.com/sebuzdugan)
