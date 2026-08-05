@@ -56,6 +56,6 @@ as unanswered.
 
 ## Verdict
 
-- **PASS** — everything checked
-- **WARN** — checked, but answers are thin (no numbers, vague owners); fix before high-risk work
-- **BLOCK** — any box unchecked, any placeholder, or high tier without sign-off → do not implement
+- **PASS** - everything checked
+- **WARN** - checked, but answers are thin (no numbers, vague owners); fix before high-risk work
+- **BLOCK** - any box unchecked, any placeholder, or high tier without sign-off → do not implement
